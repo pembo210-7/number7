@@ -1,0 +1,9 @@
+Building Number7
+
+See doc/readme-qt.rst for instructions on building Number7-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Number7.
+
+See doc/build-*.txt for instructions on building number7d,
+the intended-for-services, no-graphical-interface, reference
+implementation of Number7.

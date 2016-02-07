@@ -1,0 +1,34 @@
+src/*.exe
+src/number7
+src/number7d
+src/test_number7
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.number7
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+number7-qt
+Number7-Qt.app
+
+# Unit-tests
+Makefile.test
+number7-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
