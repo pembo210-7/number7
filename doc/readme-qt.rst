@@ -38,8 +38,9 @@ then execute the following:
 
 ::
 
-    qmake
-    make
+	chmod 755 src/leveldb/build_detect_platform
+	qmake
+	make
 
 Alternatively, install `Qt Creator`_ and open the `number7-qt.pro` file.
 
