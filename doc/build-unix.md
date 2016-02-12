@@ -11,6 +11,7 @@ UNIX BUILD NOTES
 To Build
 ---------------------
 
+	chmod 755 src/leveldb/build_detect_platform
 	cd src/
 	make -f makefile.unix		# Headless number7
 
